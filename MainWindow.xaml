@@ -1,0 +1,25 @@
+﻿<Window x:Class="sqlandcsharpstuff.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sqlandcsharpstuff"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="White">
+        <TextBox x:Name="usertxt" HorizontalAlignment="Left" Height="20" Margin="276,201,0,0" TextWrapping="Wrap" Text="aa" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="passtxt" HorizontalAlignment="Left" Height="20" Margin="273,240,0,0" TextWrapping="Wrap" Text="iii" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="loginbtn" Content="login" HorizontalAlignment="Left" Height="21" Margin="292,275,0,0" VerticalAlignment="Top" Width="118" Click="loginbtn_Click"/>
+        <Button x:Name="registerbtn" Content="register" HorizontalAlignment="Left" Height="28" Margin="277,335,0,0" VerticalAlignment="Top" Width="142" Click="registerbtn_Click"/>
+        <Label Content="----------------------------------------------------------------------" HorizontalAlignment="Left" Height="29" Margin="210,301,0,0" VerticalAlignment="Top" Width="276"/>
+        <Label Content="email" HorizontalAlignment="Left" Height="24" Margin="272,177,0,0" VerticalAlignment="Top" Width="126"/>
+        <Label Content="password" HorizontalAlignment="Left" Height="24" Margin="272,211,0,0" VerticalAlignment="Top" Width="126"/>
+        <Button HorizontalAlignment="Left" Height="57" Margin="706,10,0,0" VerticalAlignment="Top" Width="72">
+            <Image Height="57" Source="/Image2.png" Stretch="Fill" Width="74"/>
+        </Button>
+        <Label Content="" HorizontalAlignment="Left" Height="85" Margin="130,0,0,0" VerticalAlignment="Top" Width="442" Background="White"/>
+        <Image Margin="242,0,346,349" Source="/beaan.PNG" Stretch="Fill" RenderTransformOrigin="0.507,0.461"/>
+        <Image Source="/Image2.png" Stretch="Fill" Margin="311,115,415,262"/>
+
+    </Grid>
+</Window>

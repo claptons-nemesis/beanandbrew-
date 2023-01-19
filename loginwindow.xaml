@@ -1,0 +1,14 @@
+﻿<Window x:Class="sqlandcsharpstuff.loginwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sqlandcsharpstuff"
+        mc:Ignorable="d"
+        Title="loginwindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="resetbutton" Content="reset password" HorizontalAlignment="Left" Height="55" Margin="92,130,0,0" VerticalAlignment="Top" Width="216" Click="resetbutton_Click"/>
+        <TextBox x:Name="resetpassword" HorizontalAlignment="Left" Height="51" Margin="84,49,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="232"/>
+
+    </Grid>
+</Window>
